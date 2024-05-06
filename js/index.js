@@ -14,5 +14,7 @@ $(document).ready(function() {
         localStorage.setItem("auth", 0);
         window.location.href = "index.html";
     });
-    $(".cart-link").find("i").attr("value", localStorage.getItem("cart").length || 0);
+    if(localStorage.getItem("cart") != null) {
+        $(".cart-link").find("i").attr("value", localStorage.getItem("cart").length || 0);
+    }
 });
