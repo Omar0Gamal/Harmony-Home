@@ -85,7 +85,7 @@ input.searchbar:focus {
     margin-top: 5px;
     border-radius: 60px;
     cursor: pointer;
-    
+
 }
 
 .magnifierbox:hover
@@ -280,4 +280,12 @@ select.sort:focus {
     font-weight: 500;
 }
 
+.table
+{
+    width: 50%;
+    height: 400px;
+}
 
+table, th, td {
+    border:1px solid black;
+  }
