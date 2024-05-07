@@ -4,8 +4,9 @@ body{
 }
 .logoo{
     width:220px;
-    margin-left: 220px;
-    margin-top: 60px;
+    margin-left: 330px;
+    margin-top: 30px;
+    color:black;
 }
 .pages{
     color:rgb(90, 88, 89);
@@ -26,7 +27,7 @@ body{
     margin-bottom: 30px;
 }
 .form{
-    margin:25px 0 50px 130px;
+    margin:20px 0 50px 200px;
     border-style: solid;
     border-radius: 3px;
     border-width: 1px;
