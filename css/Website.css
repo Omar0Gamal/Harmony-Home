@@ -10,7 +10,7 @@
 
 .titleborder
 {
-    margin-left: 525px;
+    margin-left: 340px;
     border-bottom-width: 0px;
     border-color: gray;
     border-style: solid;
@@ -54,10 +54,8 @@
     border-right-width: 0;
     transition: transform 0.3s ease;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding-left: 500px;
-    padding-right: 600px;
 }
 
 .bar:hover
@@ -87,8 +85,7 @@ input.searchbar:focus {
     margin-top: 5px;
     border-radius: 60px;
     cursor: pointer;
-    margin-left: -120px;
-
+    
 }
 
 .magnifierbox:hover
@@ -123,7 +120,6 @@ select.sort:focus {
 
 .productsmenu
 {
-    width: 1755px;
     border-style: solid;
     border-color: rgba(155, 155, 155, 0.3);
     border-width: 1px;
@@ -179,22 +175,25 @@ select.sort:focus {
 .text
 {
     margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .productimage
 {
     border-radius: 5px;
-    height: 300px;
-    width: 300px;
+    height: 270px;
+    width: 270px;
 }
 
 .addtocart
 {
     position: absolute;
-    width: 40px;
-    height: 35px;
-    bottom: 10px;
-    right: 10px;
+    width: 45px;
+    height: 40px;
+    bottom: 40px;
+    right: 35px;
     cursor: pointer;
     transition: transform 0.3s ease;
 }
