@@ -2,7 +2,7 @@
 {
     background-color: rgb(227, 226, 226);
     font-family: Roboto, arial;
-    margin-top: 89px;
+    margin-top: 120px;
 }
 
 
@@ -11,7 +11,7 @@
 .titleborder
 {
     margin-left: 525px;
-    border-bottom-width: 1px;
+    border-bottom-width: 0px;
     border-color: gray;
     border-style: solid;
     border-top-width: 0;
