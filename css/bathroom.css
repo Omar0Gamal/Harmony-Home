@@ -79,6 +79,7 @@ option{
     column-gap: 5px;
     row-gap: 10px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 20px;
 }
 
 .product-box
