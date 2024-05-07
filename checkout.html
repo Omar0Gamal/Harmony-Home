@@ -52,11 +52,11 @@
     </head>
     <body>
         <div style="display: flex; flex-direction: column; justify-content: center;">
-            <img src="icons/logo.svg" class="logo">
+            <img src="icons/logo.svg" class="logoo">
             <div style="display: flex; flex-direction: row; margin-left: 250px;">
-                <a class="pages" href="">Home </a>
+                <a class="pages" href="index.html">Home </a>
                 <p style="color: rgb(90, 89, 89); margin-top: 0; margin-left: 3px; margin-right: 3px;"> > </p>
-                <a class="pages" href=""> Cart </a>
+                <a class="pages" href="Add to cart.html"> Cart </a>
                 <p style="color: rgb(90, 89, 89); margin-top: 0;margin-left: 3px; margin-right: 3px;"> > </p>
                 <p class="pages"> Checkout</p>
             </div>
@@ -129,7 +129,7 @@
         <!---------------------------------------------------------------------------------------------------------------->
 
         
-        <form name="payment" onsubmit="return validateForm()" method="post">
+        <form name="payment" onsubmit="return validateForm()" method="post" >
         <div class="payment">
 
             <p class="page-name">Payment</p>
@@ -174,7 +174,7 @@
             </div>
 
             <div style="text-align: right;">
-                <input  type="submit" onclick="myFunction()" value="Purchase" class="submit-button" >
+                <input  type="submit" onclick="validateNumeric()" value="Purchase" class="submit-button" >
             </div>
 
         </div>
