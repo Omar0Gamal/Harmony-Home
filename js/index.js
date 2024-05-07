@@ -15,6 +15,7 @@ $(document).ready(function() {
         window.location.href = "index.html";
     });
     if(localStorage.getItem("cart") != null) {
-        $(".cart-link").find("i").attr("value", localStorage.getItem("cart").length || 0);
+        let cart = JSON.parse(localStorage.getItem("cart"));
+        $(".cart-link").find("i").attr("value", cart.length || 0);
     }
 });
