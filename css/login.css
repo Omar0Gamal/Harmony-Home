@@ -186,3 +186,17 @@ select:-webkit-autofill:focus {
   -webkit-text-fill-color: white;
   transition: background-color 5000s ease-in-out 0s;
 }
+
+.error-msg-pass{
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 0px;
+  display: none;
+}
+
+.error-msg-login{
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 0px;
+  display: none;
+}
