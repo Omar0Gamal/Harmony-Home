@@ -9,13 +9,13 @@
 
 /*Page Header*/
 
-.bar{
+.barr{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #c2a184;
     padding:10px 10px 10px 10px;
-    margin-top: 10px;
+    margin-top: 100px;
 }
 
 .page-title{
@@ -32,7 +32,7 @@
 
 }
 
-.searchbar{
+.searchbarr{
     border-radius: 5px;
     width:300px;
     height: 30px;
@@ -40,7 +40,7 @@
     padding-left: 10px;
     transition: background-color 0.15s;
 }
-.searchbar:hover{
+.searchbarr:hover{
     background-color: rgba(209, 206, 206, 0.788);
 }
 
@@ -51,7 +51,7 @@
     margin-left:-25px;
 }
 
-.sort{
+.sortt{
     width:150px;
     height:50px;
     background-color: #c2a184;
@@ -62,13 +62,13 @@
     text-align: center;
     transition: background-color 0.15s;
 }
-.sort:focus,.searchbar:focus{
+.sortt:focus,.searchbar:focus{
     outline-width: 0;
 }
 option{
     background-color: #c2a184;
 }
-.sort:hover{
+.sortt:hover{
     background-color: rgba(155, 155, 155, 0.3);
 }
 
@@ -79,7 +79,7 @@ option{
     column-gap: 5px;
     row-gap: 10px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
 }
 
 .product-box
