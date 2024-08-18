@@ -1,3 +1,5 @@
+<img src="https://github.com/Omar0Gamal/Harmony-Home/blob/48a583cfd37ebfeaf4ea79521dcd2a295e66975d/HarmonyHome.png" width=70% height=70%>
+
 # 🏡 Harmony Home
 
 Harmony Home is a furniture e-commerce site, collaboratively developed by Computer Science students from the Faculty of Computers and Artificial Intelligence at Helwan University. 🎓💻
